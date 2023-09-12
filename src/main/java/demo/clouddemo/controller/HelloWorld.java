@@ -10,4 +10,9 @@ public class HelloWorld {
     public String sayhello(){
         return "Hello world ! you are in";
     }
+
+    @RequestMapping("/hello1")
+    public String sayhello1(){
+        return "Hello world ! you are in as test 2";
+    }
 }
